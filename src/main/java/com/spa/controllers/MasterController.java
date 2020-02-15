@@ -12,6 +12,7 @@ public class MasterController {
     @GetMapping(path = "/check")
     public String main(){
         System.out.println("testing work");
+        System.out.println("again commiting to test ");
         return "hello world";
     }
 
